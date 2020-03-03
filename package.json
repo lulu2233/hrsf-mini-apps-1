@@ -1,0 +1,22 @@
+{
+  "name": "hrsf126-mini-apps-1",
+  "version": "1.0.0",
+  "description": "mini app1",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackreactor/hrsf126-mini-apps-1.git"
+  },
+  "author": "minlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackreactor/hrsf126-mini-apps-1/issues"
+  },
+  "homepage": "https://github.com/hackreactor/hrsf126-mini-apps-1#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
