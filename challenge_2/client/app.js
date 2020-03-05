@@ -2,7 +2,7 @@ const ajaxInfoUpload = (info) => {
   $.ajax({
     type: "POST",
     url: '/upload_json',
-    data: info,
+    data: {"info" : info},
     success: ()=>{},
   });
 }
@@ -10,7 +10,7 @@ const ajaxInfoUpload = (info) => {
 $('form').on('submit', function (e) {
   e.preventDefault();
   var info = $('#myTextarea').val();
-  console.log(info);
+  //console.log(info);
   ajaxInfoUpload(info);
 });
 
